@@ -2,7 +2,7 @@
 LSL plugin for Digital Lynx SX
 
 ## Requirements
-- python 3.9
+- python=3.9
 - numpy
 - pylsl
 
