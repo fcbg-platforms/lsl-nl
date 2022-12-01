@@ -7,9 +7,9 @@ LSL plugin for Digital Lynx SX
 - pylsl
 
 ## Usage
-'''
+´´´
 python nl2lsl.py <IP> <port> <nBoard> <srate>
-'''
+´´´
 - IP: IP address to which data are received
 - port: port number to which data are received
 - nBoards: number of boards activited on the Digital Lynx SX system
