@@ -8,7 +8,7 @@ LSL plugin for Digital Lynx SX
 
 ## Usage
 ```
-python nl2lsl.py <IP> <port> <nBoard> <srate>
+python nl2lsl.py <IP> <port> <nBoard> <srate> <decimationFactor>
 ```
 - IP: IP address to which data are received
 - port: port number to which data are received
