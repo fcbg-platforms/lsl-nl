@@ -14,3 +14,4 @@ python nl2lsl.py <IP> <port> <nBoard> <srate>
 - port: port number to which data are received
 - nBoards: number of boards activited on the Digital Lynx SX system
 - srate: sampling rate of received data in Hz
+- decimationFactor: decimation factor of date fed to LSL
