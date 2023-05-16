@@ -53,4 +53,4 @@ def startAmp(nChannels=64,sr=.001,duration=60):
 	
 
 if __name__ == '__main__': 
- 	startAmp(nChannels=64, sr = .0001, duration = 120)
+ 	startAmp(nChannels=64, sr = 1/10000, duration = 120)
