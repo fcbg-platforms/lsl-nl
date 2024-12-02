@@ -1,5 +1,6 @@
-# nl2lsl
-LSL plugin for Digital Lynx SX
+# lsl-nl
+
+LSL plugin for Digital Lynx SX.
 
 ## Requirements
 - python=3.9
@@ -7,9 +8,11 @@ LSL plugin for Digital Lynx SX
 - pylsl
 
 ## Usage
+
 ```
 python nl2lsl.py <IP> <port> <nBoard> <srate> <decimationFactor>
 ```
+
 - IP: IP address to which data are received
 - port: port number to which data are received
 - nBoards: number of boards activited on the Digital Lynx SX system
@@ -19,6 +22,7 @@ python nl2lsl.py <IP> <port> <nBoard> <srate> <decimationFactor>
 ```
 python NL_mockAmplifier.py <IP> <port> <nChannels> <srate> <duration>
 ```
+
 - IP: IP address to which data are sent
 - port: port number to which data are sent
 - nChannels: number of channels
